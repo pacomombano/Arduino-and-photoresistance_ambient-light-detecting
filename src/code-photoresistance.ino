@@ -15,6 +15,6 @@ void photoReader(){
 
 void loop() {
   photoReader();
-  Serial.println(photoAnalogValue);
+  Serial.println(photoValue);
   delay(2000);
 }
