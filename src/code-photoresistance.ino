@@ -1,6 +1,6 @@
 //PHOTORESISTANCE WITH ARDUINO
 
-#define photoresistance_pin A5
+#define photoresistance_pin A0
 float photoValue, photoAnalogValue = 0;
 
 void setup() {
