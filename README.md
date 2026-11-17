@@ -3,3 +3,4 @@ In my circuit, the photoresistor comes first, followed by a resistor (R1, 10kOhm
 Arduino reads the the voltage drop on R1. Increasing ambient light, photoresistance value decreases, so the microcontroller reads a higher value (voltage drop on R1).
 The reading pin is A0. It's an analog pin, so the value goes from 0 to 1023. In the code, we set the range to 0 to 5.
 Finally, the photoValue in available by reading on serial monitor.
+<img width="1087" height="551" alt="image" src="https://github.com/user-attachments/assets/dfb78b0d-72df-46a3-bf98-15078ce99250" />
